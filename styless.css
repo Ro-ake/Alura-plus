@@ -140,12 +140,33 @@ body{
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
     .container{
-        display:block;
-        background-image:none;
+        display: block;
+        background-image: none;
     }
     .container__imagem{
-        width:50vw ;
+        width:50vw;
+    }
+    .container__caixa{
+        margin: 1em 1em;
+    }
+    .secundario{
+        margin:0;
+        text-align: center;
+    }
+    .secundario__imagem{
+        width:50vw; 
+    }
+    .dispositivos__lista{
+        display: block;
+    }
+    .container__descricao{
+        display: block;
+        margin-left;: 50em
+    }
+    .rodape__lista{
+        display: block;
+        margin: 1em 14em;
     }
 }
